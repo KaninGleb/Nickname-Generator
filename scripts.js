@@ -2,6 +2,7 @@ const prefixes = ["Cool", "Wild", "Sneaky", "Happy", "Lucky", "Crazy", "Swift"];
 const suffixes = ["Panda", "Ninja", "Tiger", "Wizard", "Dragon", "Master", "Queen"];
 
 
+// Function to get a random format for the nickname separator
 function getRandomFormat() {
     let formatType = Math.floor(Math.random() * 4);
     let randomDigits = Math.floor(Math.random() * 100);
@@ -21,6 +22,7 @@ function getRandomFormat() {
 }
 
 
+// Function to generate a random nickname using a prefix and a suffix
 function generateNickname() {
     const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
     const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
@@ -31,6 +33,7 @@ function generateNickname() {
 }
 
 
+// Function to set up event listeners for the button click
 function setupEventListeners() {
     const button = document.getElementById('generate-btn');
     const nicknameDisplay = document.getElementById('nickname');
@@ -41,4 +44,5 @@ function setupEventListeners() {
     });
 }
 
+// Initialize event listeners
 setupEventListeners();
