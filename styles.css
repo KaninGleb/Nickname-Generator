@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(90deg, #4a5ef5, #5d001f); /* Darker gradient */
-    color: #f0f0f0; /* Lighter text color for better visibility */
+    background: linear-gradient(90deg, #4a5ef5, #5d001f);
+    color: #f0f0f0;
     text-align: center;
     padding: 50px;
 }
@@ -63,7 +63,7 @@ label {
     margin-top: 15px;
     display: block;
     font-size: 1.2em;
-    color: #f0f0f0; /* Match text color */
+    color: #f0f0f0;
 }
 
 input[type="checkbox"] {
