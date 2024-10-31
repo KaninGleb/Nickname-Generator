@@ -18,6 +18,4 @@ Welcome to the **Nickname Generator**! This fun web application helps you create
 Ready to create your perfect nickname? Feel free to experiment and share your findings with friends! 😄
 
 ## Get Started Now!
-<div style="text-align: center; font-family: 'Arial', sans-serif;">
-    <a href="your-link-here" style="display: inline-block; padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">Generate Nickname!</a>
-</div>
+[![Generate Nickname](https://img.shields.io/badge/Generate%20Nickname-4CAF50?style=for-the-badge&logo=appveyor)](your-link-here)
