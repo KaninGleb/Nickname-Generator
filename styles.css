@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: linear-gradient(90deg, #4a5ef5, #5d001f);
     color: #f0f0f0;
     text-align: center;
@@ -22,6 +22,7 @@ body {
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 2.8em;
     margin-bottom: 25px;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
@@ -45,6 +46,7 @@ button:hover {
 }
 
 #nickname {
+    font-family: 'Roboto', sans-serif;
     font-size: 2.2em;
     margin-top: 20px;
     padding: 15px;
@@ -61,11 +63,35 @@ button:hover {
 
 label {
     margin-top: 15px;
-    display: block;
     font-size: 1.2em;
     color: #f0f0f0;
 }
 
 .checkbox {
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.tooltip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tooltip {
+    text-align: center;
+    width: 360px;
+    margin-top: 45px;
+    padding: 8px;
+    color: #ffffff;
+    border-radius: 6px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }
