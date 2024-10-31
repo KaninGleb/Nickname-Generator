@@ -18,7 +18,8 @@ Welcome to the **Nickname Generator**! This fun web application helps you create
 Ready to create your perfect nickname? Feel free to experiment and share your findings with friends! 😄
 
 ## Get Started Now!
-[![Generate Nickname](https://img.shields.io/badge/Generate%20Nickname-4CAF50?style=for-the-badge&logo=appveyor)]([https://kaningleb.github.io/Nickname-Generator/](https://kaningleb.github.io/Nickname-Generator/))
+<div align="center">
 <a href="https://kaningleb.github.io/Nickname-Generator/">
     <img src="https://img.shields.io/badge/Generate%20Nickname-4CAF50?style=for-the-badge&logo=appveyor" alt="Badge"/>
-  </a>
+</a>
+</div>
