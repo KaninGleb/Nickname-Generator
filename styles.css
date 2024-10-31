@@ -17,6 +17,16 @@ button {
     cursor: pointer;
 }
 
+label {
+    margin-top: 15px;
+    display: block;
+    font-size: 1.2em;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
 #nickname {
     font-size: 24px;
     margin-top: 20px;
