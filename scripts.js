@@ -1,5 +1,44 @@
-const prefixes = ["Cool", "Wild", "Sneaky", "Happy", "Lucky", "Crazy", "Swift"];
-const suffixes = ["Panda", "Ninja", "Tiger", "Wizard", "Dragon", "Master", "Queen"];
+const prefixes = [
+    "Cool", "Wild", "Sneaky", "Happy", "Lucky",
+    "Crazy", "Swift", "Mysterious", "Brave", "Funny",
+    "Lunar", "Solar", "Secret", "Rapid", "Magical",
+    "Silly", "Fearsome", "Oceanic", "Heavenly", "Forest",
+    "Epic", "Fierce", "Gentle", "Mighty", "Cunning",
+    "Noble", "Bold", "Charming", "Witty", "Sly",
+    "Vicious", "Jolly", "Rogue", "Daring", "Fearless",
+    "Spunky", "Zany", "Ethereal", "Vibrant", "Dazzling",
+    "Gallant", "Whimsical", "Crafty", "Radiant", "Funky",
+    "Eager", "Nifty", "Chill", "Snazzy", "Crafted",
+    "Epic", "Gleeful", "Dashing", "Dynamo", "Hyper",
+    "Charming", "Gritty", "Savvy", "Really Cool", "Slick",
+    "Snappy", "Bubbly", "Rambunctious", "Feisty", "Vivacious",
+    "Joyful", "Energetic", "Intrepid", "Sassy", "Lively",
+    "Plucky", "Zesty", "Radiant", "Lucid", "Noble",
+    "Mellow", "Daring", "Vivid", "Cheerful", "Mischievous",
+    "Noble", "Spirited", "Epic", "Zealous", "Serene",
+    "Unstoppable"
+];
+
+const suffixes = [
+    "Panda", "Ninja", "Tiger", "Wizard", "Dragon",
+    "Master", "Queen", "Hero", "Robot", "Warrior",
+    "Cat", "Bird", "Lion", "Rabbit", "Phoenix",
+    "Turbo", "Mage", "Fighter", "Fox", "Kitten",
+    "Superstar", "Giant", "Shadow", "Dreamer", "Genius",
+    "Champion", "Knight", "Explorer", "Scribe", "Bard",
+    "Sorcerer", "Ranger", "Jester", "Gladiator", "Savant",
+    "Titan", "Sphinx", "Viking", "Sailor", "Samurai",
+    "Brawler", "Rogue", "Seeker", "Adventurer", "Guardian",
+    "Prophet", "Tamer", "Alchemist", "Scribe", "Shaman",
+    "Phantom", "Druid", "Wanderer", "Seer", "Chieftain",
+    "Bishop", "Glitch", "Mystic", "Dynamo", "Sage",
+    "Rebel", "Banshee", "Wraith", "Witch", "Scribe",
+    "Maestro", "Artisan", "Maverick", "Pioneer", "Vanguard",
+    "Ranger", "Battler", "Virtuoso", "Sentry", "Paladin",
+    "Legend", "Sorceress", "Enchantress", "Seer", "Noble",
+    "Dynamo", "Overlord", "Champion", "Guardian", "Warden",
+    "Dreamweaver", "Mastermind", "Star", "Heroine", "Knave"
+];
 
 
 // Function to get a random format for the nickname separator
