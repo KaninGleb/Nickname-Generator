@@ -7,4 +7,14 @@ function generateNickname() {
     return `${prefix} ${suffix}`;
 }
 
-console.log(generateNickname());
+function setupEventListeners() {
+    const button = document.getElementById('generate-btn');
+    const nicknameDisplay = document.getElementById('nickname');
+
+    button.addEventListener('click', () => {
+        const nickname = generateNickname();
+        nicknameDisplay.textContent = nickname;
+    });
+}
+
+setupEventListeners();
