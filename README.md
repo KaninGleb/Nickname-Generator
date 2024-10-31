@@ -6,7 +6,6 @@
 <ul>
     <li>Generate quirky nicknames using a variety of prefixes and suffixes.</li>
     <li>Enable random formats to make your nickname even more unique—think numbers and special characters! &#127881;</li>
-    <li>A vibrant, responsive design with delightful tooltips for extra info.</li>
 </ul>
 
 <h2>How It Works</h2>
@@ -16,3 +15,11 @@
     <li><strong>Checkbox:</strong> Toggle to add some randomness!</li>
     <li><strong>Nickname Display:</strong> Where your newly generated nickname will shine! &#11088;</li>
 </ul>
+
+<h2>Dive into a World of Creativity!</h2>
+<p>Ready to create your perfect nickname? Feel free to experiment and share your findings with friends! &#128521;</p>
+
+<h2>Get Started Now!</h2>
+<div style="text-align: center;">
+    <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Generate Nickname!</button>
+</div>
