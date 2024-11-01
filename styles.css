@@ -116,3 +116,22 @@ label {
         font-size: 1.1em;
     }
 }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    #nickname {
+        font-size: 1.8em;
+    }
+
+    label {
+        font-size: 1em;
+    }
+}
