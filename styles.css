@@ -135,3 +135,28 @@ label {
         font-size: 1em;
     }
 }
+
+@media screen and (max-width: 576px) {
+    body {
+        padding: 5% 1%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    #nickname {
+        font-size: 1.5em;
+    }
+
+    .tooltip {
+        font-size: 0.8em;
+        width: 50%;
+    }
+}
