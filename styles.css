@@ -23,7 +23,7 @@ body {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2.8em;
+    font-size: 2.5em;
     margin-bottom: 25px;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
@@ -98,3 +98,21 @@ label {
     opacity: 1;
 }
 
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    button {
+        font-size: 1.1em;
+        padding: 12px 24px;
+    }
+
+    #nickname {
+        font-size: 2em;
+    }
+
+    label {
+        font-size: 1.1em;
+    }
+}
